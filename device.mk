@@ -24,3 +24,8 @@ include $(LOCAL_PATH)/product/*.mk
 
 # Inherit the rest from msm8916-common
 $(call inherit-product, device/cyanogen/msm8916-common/msm8916.mk)
+
+# Ubuntu Overlay Files
+#
+PRODUCT_COPY_FILES += \
+    device/wingtech/wt88047/ubuntu/70-android.rules:system/halium/lib/udev/rules.d/70-android.rules
