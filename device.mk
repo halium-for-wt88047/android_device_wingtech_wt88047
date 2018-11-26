@@ -32,4 +32,6 @@ PRODUCT_PACKAGES += timekeep
 #
 PRODUCT_COPY_FILES += \
     device/wingtech/wt88047/ubuntu/70-android.rules:system/halium/lib/udev/rules.d/70-android.rules \
-    device/wingtech/wt88047/ubuntu/android.conf:system/halium/etc/ubuntu-touch-session.d/android.conf
+    device/wingtech/wt88047/ubuntu/android.conf:system/halium/etc/ubuntu-touch-session.d/android.conf \
+    device/wingtech/wt88047/ubuntu/adbd.conf:system/halium/etc/init/adbd.conf \
+    device/wingtech/wt88047/ubuntu/adbd.conf:system/halium/etc/init/android-tools-adb.conf
