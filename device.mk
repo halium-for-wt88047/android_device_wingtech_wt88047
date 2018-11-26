@@ -36,4 +36,5 @@ PRODUCT_COPY_FILES += \
     device/wingtech/wt88047/ubuntu/adbd.conf:system/halium/etc/init/adbd.conf \
     device/wingtech/wt88047/ubuntu/adbd.conf:system/halium/etc/init/android-tools-adb.conf \
     device/wingtech/wt88047/ubuntu/config.xml:system/halium/usr/share/powerd/device_configs/config-default.xml \
-    device/wingtech/wt88047/ubuntu/config.xml:system/halium/usr/share/powerd/device_configs/config-wt88047.xml
+    device/wingtech/wt88047/ubuntu/config.xml:system/halium/usr/share/powerd/device_configs/config-wt88047.xml \
+    device/wingtech/wt88047/ubuntu/ofono.override:system/halium/etc/init/ofono.override
