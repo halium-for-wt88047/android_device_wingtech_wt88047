@@ -25,6 +25,9 @@ include $(LOCAL_PATH)/product/*.mk
 # Inherit the rest from msm8916-common
 $(call inherit-product, device/cyanogen/msm8916-common/msm8916.mk)
 
+#This keeps time correct across reboots
+PRODUCT_PACKAGES += timekeep
+
 # Ubuntu Overlay Files
 #
 PRODUCT_COPY_FILES += \
